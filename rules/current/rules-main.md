@@ -101,13 +101,6 @@ Unacceptable:
 * Playing as Donald Trump, 45th president of the United States.
 * Playing as Gordan Freeman, a silent scientist from Black Mesa.
 
-Acceptable:
-
-* Playing as Tonald Drump, a blonde, orange skinned captain obsessed with building walls.
-* Playing as Gerald Fieldman, a mute scientist who really wants that red crowbar.
-
-
-
 ## Rule 4: Fulfil your role
 
 > All head roles, antag roles, and to some extent all jobs in science, medical, engineering, supply, and security require a minimum amount of effort. Failing to put in that effort will negatively impact the round for everyone playing. Before you do anything else, you should insure that all of the responsibilities of your department are being accomplished.
