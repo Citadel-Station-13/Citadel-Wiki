@@ -38,6 +38,7 @@
 3. Do not exploit bugs. [Report all bugs on the Github.](https://github.com/Citadel-Station-13/Citadel-Station-13/issues/new)
 4. Do not intentionally cause damage to the station, machines, or other structures/objects for no reason.
 5. Do not harass another player out of character. In-charachter harassment is subject to admin intervention if it becomes overbearing.
+6. **Real world racial slurs are prohibited.**
 
 ### Examples:
 
