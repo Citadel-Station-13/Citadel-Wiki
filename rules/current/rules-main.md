@@ -146,6 +146,7 @@ Acceptable:
 * Characters may know about any in-game mechanics; learning how to do a job from a guide is not metagaming.
 * Characters may know about antagonists and what their objectives might be, but may not pre-emptively prepare for them or attempt to prevent their accomplishment.
 * Characters may know what antagonist equipment is and what it does, but may not pre-emptively search for it without prior knowledge of an antagonist being present.
+* Stealth items from the syndicate uplink, implants, and the syndicate uplink itself may not be searched for or preemptively confiscated (see: swapping out PDA just in case) without prior, legitimate suspicion.
 
 ### Examples:
 
