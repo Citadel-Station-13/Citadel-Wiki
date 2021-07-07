@@ -33,6 +33,7 @@ Organ damage will cause side-effects as they reach thresholds, which will alert 
 
 # Organ effects
 Each organ has 100 max hp, except the brain which has 200, and the lungs which has 300. 
+<b>Injecting Cryosenium into a corpse will pause all decay while it remains in their system. 5u lasts around 3 minutes, and a syringe can be found in the organ fridge, with chemistry able to make more.</b>
 
 <table>
   <tr>
@@ -297,9 +298,42 @@ Healthy livers prevent toxic reagents effects when their metabolic stress is bel
 -	Livers will only heal when their metabolic stress is reduced past 0.
 -	Soothehol will slowly treat metabolic stress based on it's purity (Byproduct of Antihol, it's purity is equal to Antihol's impurity, up until 0.3.).  Soothhol at purities >0.66 can push a liver's metabolic stress into chronic healing levels.
 -	Dialysis on sleepers will reduce a liver's metabolic stress into acute treatment levels when tier 2, or chronic treatment levels when tier 4. Dialysis has to be left on for a period of time to reach chronic treatment levels.
+-	Livers will naturally heal Acute damage when stress is < 0% and Chronic when < -10%
 -	Hepatectomy
 #### End stage:
 -	Hepatectomy
+
+## A note on Slime livers (Filturatums):
+Slime's livers work differently than human livers. They get stressed by medicines and impurities, but lose stress from toxins. As such, a person with a slime liver doesn't filter toxins when unstressed. In a Fulturatum, stress equates to toxin saturation. As it's stress turns negative, the toxin saturation of their Filturatum increases, providing healing and antitoxic effects. However, at very high concentrations of toxin (< -55%), it starts to damage the brain, causes jittering, dizziness and medicines don't process. When a slime is oversaturated with toxins, the best method to reverse it is to calomel any toxins out, then put as many medicines in the patient as possible. Even though the medicine won't do anything until under the stress threshold due to the toxin concetration sterically hinering their effects, their stress will naturatlly rise from any medicines in their body. Failed Filturatums also have the unique ability to be restarted by flooding them with toxins, pushing their stress down to < -95%. Filturatums also work in other species, though, toxins will likely be damaging to them.
+
+### In a nutshell:
+
+- More control over metabolic stress
+- Able to treat chronic/acute failure easier
+- Able to treat end stage without surgery
+- Wider healthy stress window (-55% to 15%)
+- All metabolic stress effects are inverted, toxins, alcohols and multiver reduces it, dialysis, medicines and impurities increase it.
+- Less total health
+- No toxin purging
+- When metabolic stress is below -55%(too toxic) medicines don't process and causes minor brain damage
+- When below -95%, rejuvenates a failing liver
+- Slower mitigation (0.05-0.15 instead of 0.05 to 0.25) 
+
+### Filturatum specific damage methods:
+-	Too much medicine without toxin to balance
+-	Impurity consumption
+- 	Metabolic stress
+-	Dialysis
+### Filturatum specific treatment methods
+#### Acute & Chronic:
+-	Livers will only heal when their metabolic stress is reduced past 0.
+-	Reducing stress to < 0% will treat Acute, < -25% will treat Chronic. This can be done by consuming toxins.
+-	Hepatectomy
+#### End stage:
+-	Hepatectomy
+-	Reducing stress to below -95% will rejuvinate a failed Filturatum
+
+As always, grafting synthtissue remains a universal cure in this case.
 
 ## Lungs <img src="https://tgstation13.org/wiki//images/2/23/Lungs.png"></img>
 Lungs are unusual in that they have more health than most organs, and will take longer to treat. When a lung fails for the first time, one of the lobes collaspes first, before the other. If both lobes deflate it will enter end stage failure. A collapsed lung will stress the heart and reduce functional breathing. Lobectomies additionally can only be performed once, and will cause very minor negative effects on affected lungs..
